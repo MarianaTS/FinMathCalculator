@@ -1,0 +1,86 @@
+body{
+	padding: 5px;
+}
+
+.header{
+
+height: 200px;
+background-image: url(https://pexels.imgix.net/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?dl&fit=crop&w=1280&h=754);
+border-bottom: 1px solid rgba(209, 242, 235,  1);
+box-shadow: 2px 2px 10px (209, 242, 235, 0.5);
+margin-left: 50px;
+margin-right: 50px;
+background-size: 100%;
+background-position: center;
+border-radius: 2px;
+}
+
+.main{
+margin-left: 50px;
+margin-right: 50px;
+background-color:#F2F3F4; 
+
+}
+.calculat {
+
+
+	margin-left: 0px;
+    margin-right: 0px;
+	width: 600px;
+	margin-top: 20px;
+	float: left;
+
+
+}
+
+.calculat table, th, td{
+    border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+}
+.calculat table{
+
+margin-top: 20px;
+
+	margin-left: 0px;
+	width: 600px;
+
+
+}
+
+.calculat  th{
+	background-color: #B2BABB;
+}
+
+.calculat a, .btn{
+padding: 0px 15px 0px !important;
+font-size: 21px !important;
+background-color: white;
+border-radius: 1px;
+cursor: pointer;
+  box-shadow: 0px 0px 5px #a19ca1;
+border:none;
+display: inline-block;
+background-color: white;
+border:none;
+text-align: center;
+  font-family: Georgia;
+  color: #000000;
+  text-decoration: none;
+}
+.calculat a{
+
+	margin:auto;
+
+}
+.calculat a:hover, .btn:hover {
+    text-decoration: none;
+    box-shadow: 0px 0px 5px #a19ca1 inset,  0px 0px 5px #a19ca1;
+}
+
+#plots{
+
+	float:right;
+	
+
+}
